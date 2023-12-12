@@ -25,3 +25,14 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+main {
+  margin: 0 auto;
+  padding: 200px;
+}
+
+#video {
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+}
