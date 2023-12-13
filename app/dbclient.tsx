@@ -1,0 +1,12 @@
+
+import { TableClient, AzureSASCredential } from "@azure/data-tables";
+
+const account = "secretsantarp";
+const tableName = "secretsanta";
+
+
+const sas = process.env.SAS_TOKEN as string;
+export const dbClient = new TableClient(
+  `https://${account}.table.core.windows.net`, tableName,
+  new AzureSASCredential(sas)
+);
