@@ -15,10 +15,8 @@ export default function Home() {
 
   return (
     <>
-      <img src="/secret_santa.png" alt="Secret Santa Logo" className="w-1/5" />
-
       <video autoPlay muted loop id="myVideo">
-      <source src="test.mp4" type="video/mp4"></source>
+      <source src="snowfall.mp4" type="video/mp4"></source>
       Your browser does not support HTML5 video.
       </video>
 
