@@ -8,7 +8,7 @@ export async function displayPlayers() {
     for await (const player of await playersIterable) {
       console.log(player);
       let listItem = document.createElement('li');
-      listItem.innerHTML = player.name;
+      listItem.innerHTML = `${player.name}-${player.usrName}`;
       playersList.appendChild(listItem);
     }
   }
