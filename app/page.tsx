@@ -17,6 +17,11 @@ export default function Home() {
     <>
       <img src="/secret_santa.png" alt="Secret Santa Logo" className="w-1/5" />
 
+      <video autoplay muted loop id="myVideo">
+      <source src="test.mp4" type="video/mp4"> 
+      Your browser does not support HTML5 video.
+      </video>
+
       <h1>Welcome to secret santa!</h1>
       <h2>Enter the names of the players below!</h2>
 
