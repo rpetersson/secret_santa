@@ -30,8 +30,9 @@ export default function Home() {
 
         </form>
 
+       
+        <div className="m-3 flex flex-col items-center justify-between">
         <p>Players:</p>
-        <div className="m-3">
           <ul id='player_list'>
 
           </ul>
