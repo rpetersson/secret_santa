@@ -18,11 +18,12 @@
 
 .hej {
   position: fixed;
-  bottom: 500;
+  bottom: 100;
+  margin: auto;
   background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
-  width: 1;
-  padding: 20px;
+  color: #ffffff;
+  width: 100;
+  padding: 200px;
 }
 
 body {
