@@ -1,8 +1,8 @@
 "use client"
 import Link from "next/link";
-import { addRecordAzTable } from "./actions/addToDatabase";
-import { dropAllEntities } from "./actions/dropAllEntities";
-import { displayPlayers } from "./functions/displayPlayers";
+import { addRecordAzTable } from "./components/actions/addToDatabase";
+import { dropAllEntities } from "./components/actions/dropAllEntities";
+import { displayPlayers } from "./components/functions/displayPlayers";
 
 export default function Home() {
   async function submitName() {
