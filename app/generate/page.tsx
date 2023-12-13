@@ -1,12 +1,11 @@
+"use client"
 import React from "react"
 
-export default function generate({ searchParams}: { searchParams: URLSearchParams }
-  ) {
-    console.log(playerNames)
+export default function generate() {
+
+  //Convert players to array
     return (
-      <main className="flex min-h-screen flex-col items-center justify-between p-24">
-        <h1>generate</h1>
-        
-      </main>
+    <>
+    </>
     )
   }
