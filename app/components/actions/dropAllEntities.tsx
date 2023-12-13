@@ -7,7 +7,7 @@ export async function dropAllEntities() {
       let entitiesIterable = getTableClient().listEntities();
 
       for await (const entity of entitiesIterable) {
-        console.log({ rowKey: entity.rowKey as string, partitionKey: entity.partitionKey as string, todoTask: entity.todo as string });
+        console.log({ rowKey: entity.rowKey as string, partitionKey: entity.partitionKey as string });
         getTableClient().deleteEntity(entity.partitionKey as string, entity.rowKey as string);
       }
       console.log("Success")
